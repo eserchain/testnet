@@ -17,7 +17,7 @@ many new chains start with large allocations to their founders or investors. Ese
 
 - **Open mining.** Ethash runs on the GPUs people already own. A 4 GB card mines today; the project publishes miner
   builds for Windows and Linux with their source code.
-- **Fair start.** No coins exist before the first block is mined. The founders mine under the same rules as everyone.
+- **Fair start.** No coins exist before the first block is mined. The founder mines under the same rules as everyone.
 - **Known tools.** Developers use Solidity, Remix, MetaMask and the existing Ethereum libraries without changes.
 - **Plain rules.** The client is an unmodified release of Core-Geth; the chain's rules are a public genesis file.
 
@@ -79,7 +79,7 @@ computes rewards with the same schedule.
 
 - **No premine.** The genesis block allocates no coins to anyone.
 - **No sale.** There is no ICO, presale or token sale, and the project does not sell ESER.
-- **Same rules for everyone.** The founders mine like any other miner.
+- **Same rules for everyone.** The founder mines like any other miner.
 - **Genesis message.** The genesis block carries the sentence
   *"Peace at home, peace in the world. M.K. Ataturk"*.
 - **Genesis file.** The launch genesis file and its SHA-256 are published. Node operators must check that SHA-256:

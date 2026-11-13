@@ -19,7 +19,7 @@ chain'lerin çoğu da kuruculara ya da yatırımcılara ayrılmış büyük payl
 
 - **Açık mining.** Ethash, insanların zaten sahip olduğu GPU'larda çalışır. 4 GB'lık bir kart bugün mine edebilir;
   proje Windows ve Linux için miner build'lerini kaynak koduyla birlikte yayımlar.
-- **Adil başlangıç.** İlk block mine edilmeden önce hiç coin yoktur. Kurucular da herkesle aynı kurallarla mine eder.
+- **Adil başlangıç.** İlk block mine edilmeden önce hiç coin yoktur. Kurucu da herkesle aynı kurallarla mine eder.
 - **Bilinen araçlar.** Developer'lar Solidity, Remix, MetaMask ve mevcut Ethereum kütüphanelerini değiştirmeden kullanır.
 - **Açık kurallar.** Client, Core-Geth'in değiştirilmemiş bir sürümüdür; chain'in kuralları herkese açık bir genesis
   dosyasıdır.
@@ -83,7 +83,7 @@ takvimle hesaplar.
 
 - **Premine yok.** Genesis block kimseye coin ayırmaz.
 - **Satış yok.** ICO, ön satış ya da token satışı yoktur ve proje ESER satmaz.
-- **Herkese aynı kurallar.** Kurucular diğer miner'lar gibi mine eder.
+- **Herkese aynı kurallar.** Kurucu diğer miner'lar gibi mine eder.
 - **Genesis mesajı.** Genesis block şu cümleyi taşır:
   *"Peace at home, peace in the world. M.K. Ataturk"* (Yurtta sulh, cihanda sulh. M.K. Atatürk).
 - **Genesis dosyası.** Launch'taki genesis dosyası ve SHA-256'sı yayımlanır. Node operatörleri bu SHA-256'yı kontrol
