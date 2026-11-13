@@ -1,3 +1,5 @@
+<img src="img/eserchain-logo-512.png" alt="Eser Chain" width="96">
+
 # Eser Chain testnet
 
 Eser Chain is an independent, Ethereum-compatible Proof-of-Work blockchain mined with the original Ethash algorithm.
@@ -23,6 +25,7 @@ This repository holds what you need to join the **public testnet** and is the pl
 | Faucet | on https://eserchain.org |
 | White paper | [WHITEPAPER.md](WHITEPAPER.md) · [Türkçe](WHITEPAPER-tr.md) · [PDF](https://eserchain.org/eser-chain-whitepaper.pdf) |
 | Network status | https://eserchain.org/status.html |
+| X (Twitter) | [@eserchain](https://x.com/eserchain) |
 
 ## Mine
 
