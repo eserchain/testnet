@@ -1,0 +1,27 @@
+name: Mining problem
+description: A miner does not start, finds no device, or the pool rejects shares.
+labels: [mining]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not post private keys, recovery phrases or passwords. Your mining address is fine to share."
+  - type: input
+    id: gpu
+    attributes: { label: GPU and memory, placeholder: "e.g. RTX 3060 12 GB, RX 6600 8 GB" }
+    validations: { required: true }
+  - type: input
+    id: os
+    attributes: { label: Operating system and GPU driver version }
+    validations: { required: true }
+  - type: input
+    id: miner
+    attributes: { label: Miner and version, placeholder: "ethminer 0.19.0-18 (eserchain.org build), lolMiner 1.x, ..." }
+    validations: { required: true }
+  - type: input
+    id: command
+    attributes: { label: Command you ran }
+    validations: { required: true }
+  - type: textarea
+    id: log
+    attributes: { label: Miner output, description: "The first 30 lines and the lines around the error.", render: text }
+    validations: { required: true }

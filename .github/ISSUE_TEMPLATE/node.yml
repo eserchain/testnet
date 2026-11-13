@@ -1,0 +1,20 @@
+name: Node or network problem
+description: A node does not sync or find peers, a transaction is stuck, the explorer, RPC or faucet misbehaves.
+labels: [node]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not post private keys, recovery phrases or passwords."
+  - type: input
+    id: client
+    attributes: { label: Client and version, placeholder: "output of: geth version" }
+  - type: input
+    id: os
+    attributes: { label: Operating system }
+  - type: textarea
+    id: what
+    attributes: { label: What happened, description: "What you did, what you expected, what you saw. Add transaction hashes or addresses if relevant." }
+    validations: { required: true }
+  - type: textarea
+    id: log
+    attributes: { label: Log lines, render: text }

@@ -1,0 +1,63 @@
+{
+  "config": {
+    "networkId": 20261113,
+    "chainId": 20261113,
+
+    "eip2FBlock": 0,
+    "eip7FBlock": 0,
+    "eip150Block": 0,
+    "eip155Block": 0,
+    "eip160Block": 0,
+    "eip161FBlock": 0,
+    "eip170FBlock": 0,
+
+    "eip100FBlock": 0,
+    "eip140FBlock": 0,
+    "eip198FBlock": 0,
+    "eip211FBlock": 0,
+    "eip212FBlock": 0,
+    "eip213FBlock": 0,
+    "eip214FBlock": 0,
+    "eip658FBlock": 0,
+
+    "eip145FBlock": 0,
+    "eip1014FBlock": 0,
+    "eip1052FBlock": 0,
+
+    "eip152FBlock": 0,
+    "eip1108FBlock": 0,
+    "eip1344FBlock": 0,
+    "eip1884FBlock": 0,
+    "eip2028FBlock": 0,
+    "eip2200FBlock": 0,
+
+    "eip2565FBlock": 0,
+    "eip2718FBlock": 0,
+    "eip2929FBlock": 0,
+    "eip2930FBlock": 0,
+
+    "eip3529FBlock": 0,
+    "eip3541FBlock": 0,
+
+    "eip3651FBlock": 0,
+    "eip3855FBlock": 0,
+    "eip3860FBlock": 0,
+    "eip6049FBlock": 0,
+
+    "disposalBlock": 0,
+    "blockReward": { "0x0": "0x1BC16D674EC80000" },
+    "ethash": {}
+  },
+
+  "nonce": "0x4553455243484149",
+  "timestamp": "0x6af69ca5",
+  "extraData": "0x4553455220434841494e20544553544e45542031",
+  "gasLimit": "0x1c9c380",
+  "difficulty": "0x26be3680",
+  "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "coinbase": "0x0000000000000000000000000000000000000000",
+  "alloc": {},
+  "number": "0x0",
+  "gasUsed": "0x0",
+  "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+}

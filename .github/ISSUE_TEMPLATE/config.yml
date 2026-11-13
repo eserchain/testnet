@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Network status
+    url: https://eserchain.org/status.json
+    about: Current state of the public testnet services.
