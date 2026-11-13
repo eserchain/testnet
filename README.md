@@ -51,3 +51,9 @@ symbol `ESER`, explorer `https://explorer.testnet.eserchain.org`. Or use the but
 
 Open an [issue](../../issues/new/choose). For mining problems give your GPU, driver, operating system, miner and
 version, the command you ran and the error lines. Do not post private keys, recovery phrases or passwords.
+
+## License
+
+Documentation (README.md, NODE.md, issue templates): [CC BY 4.0](LICENSE), © Eser Chain.
+Network data (`genesis-testnet.json`, `bootnodes.txt`): public domain, [CC0 1.0](LICENSE-CC0) – copy it anywhere without
+attribution. The miner builds on https://eserchain.org are GPL-3.0, like ethminer itself.
