@@ -21,6 +21,8 @@ This repository holds what you need to join the **public testnet** and is the pl
 | Pool | `pool.testnet.eserchain.org:8008` · https://pool.testnet.eserchain.org (PPLNS, 1 % fee, payouts from 0.2 ESER) |
 | Public RPC | `https://testnet.eserchain.org/rpc` (rate-limited) |
 | Faucet | on https://eserchain.org |
+| White paper | [WHITEPAPER.md](WHITEPAPER.md) · [Türkçe](WHITEPAPER-tr.md) · [PDF](https://eserchain.org/eser-chain-whitepaper.pdf) |
+| Network status | https://eserchain.org/status.html |
 
 ## Mine
 
@@ -63,6 +65,6 @@ version, the command you ran and the error lines. Do not post private keys, reco
 
 ## License
 
-Documentation (README.md, NODE.md, issue templates): [CC BY 4.0](LICENSE), © Eser Chain.
+Documentation (README.md, NODE.md, WHITEPAPER.md, WHITEPAPER-tr.md, issue templates): [CC BY 4.0](LICENSE), © Eser Chain.
 Network data (`genesis-testnet.json`, `bootnodes.txt`): public domain, [CC0 1.0](LICENSE-CC0) – copy it anywhere without
 attribution. The miner builds on https://eserchain.org are GPL-3.0, like ethminer itself.
