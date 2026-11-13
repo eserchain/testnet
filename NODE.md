@@ -14,7 +14,7 @@ testnet may be restarted with a new genesis. Mainnet (chain ID 19811113) is not 
 | Coin | ESER, 18 decimals |
 | Block reward | 2 ESER; +1/32 per included uncle; uncle miner gets (8 − distance)/8 × 2 ESER |
 | Block time | about 13 s at equilibrium (Ethash difficulty rule with EIP-100; measured 10.0 s mean while difficulty was still rising) |
-| EVM | Shanghai-level opcodes (`PUSH0`), no EIP-1559: no `BASEFEE`; legacy (type 0) transactions tested, access-list (type 1) enabled in the genesis but **not verified** |
+| EVM | Shanghai-level opcodes (`PUSH0`), no EIP-1559: no `BASEFEE`; legacy (type 0) transactions tested, access-list (type 1) accepted by the node (not yet seen mined in a block); EIP-1559 (type 2) is rejected |
 | Not supported | Cancun opcodes (`MCOPY`, `TLOAD`/`TSTORE`, `BLOBHASH`) |
 | Genesis hash (testnet) | `0xba3b827401083284306d2cb4a5f87dd42456387bf6dec7f6e60d0dd771ecc4c6` |
 | Bootnodes (testnet) | `enode://bc2b63cb93c0e47eea82776164874b8f83f476043f5d28b61443e2de097697d17cc42111223a300b8af010076740f6b5dfac73606d17fb5a619eee97d982cac1@89.167.127.16:30303`<br>`enode://f3d661e5cd3bacda2cf39b53a4f45ed3f317264fe4c8cd4406554a2b570ee6377702d6f054652c0bf575616b97b3537f9f95e4374bffff51df6737d1a63dd863@2.29.148.35:30303`<br>`enode://ddddf11f5d680ba1849617bee2ded7745759772692bad2901eda56589dd15637e17c941e4dcf7d67f2fc934d84fa39a3194b58da118265d40c7b830b4eb8703c@85.105.194.210:30310` |
