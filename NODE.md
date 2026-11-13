@@ -129,7 +129,10 @@ Pool page with your balance and payments: https://pool.testnet.eserchain.org
 | ethminer 0.18.0 (official release), OpenCL | Works on 16 GB cards. Fails on a 4 GB NVIDIA card (`CL_INVALID_BUFFER_SIZE`): it allocates the DAG as one buffer |
 | ethminer 0.19.0-18 (commit `8eaf50ab`), Windows build made for this project (https://eserchain.org/dl/), OpenCL (`-G`) | Works on a 4 GB card: RTX 3050 Ti Laptop GPU, split DAG, 22.7 MH/s steady, 19 of 19 shares accepted by the testnet pool |
 | ethminer 0.18.0 / 0.19.0-alpha, CUDA (`-U`) | Does not work on RTX 30 series and newer (`invalid device symbol`) |
-| lolMiner, T-Rex, other closed-source miners | **Not verified** |
+| lolMiner 1.98a (closed source, 0.7 % dev fee), CUDA on NVIDIA | Works. RTX 5060 Ti: 52.45 MH/s, 136 of 136 shares accepted. `lolMiner --algo ETHASH --pool pool.testnet.eserchain.org:8008 --user 0xYOUR_ADDRESS.RIG --ethstratum ETHPROXY` |
+| GMiner 3.44 (closed source, 2 % dev fee) | Does not run on RTX 50 series (`no kernel image is available for execution on the device`). Older cards **not verified** |
+| T-Rex 0.26.8 (closed source, last release 2022) | Does not run on RTX 50 series (`Can't start T-Rex, cuda_crc32_tweaked_120.cubin.c: No such file or directory`). Older cards **not verified** |
+| AMD cards, other miners | **Not verified** |
 | ASIC miners | **Not verified** |
 
 The miner must use plain Ethash. Etchash (Ethereum Classic) uses longer DAG epochs, so a miner set to Etchash is

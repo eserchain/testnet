@@ -31,6 +31,15 @@ ethminer -G -P stratum1+tcp://0xYOUR_ADDRESS.RIG@pool.testnet.eserchain.org:8008
 Windows and Linux builds of ethminer 0.19.0-18 (OpenCL, split DAG: 4 GB cards work) with their source are on
 https://eserchain.org. Your GPU needs more than 1 GB of free memory.
 
+lolMiner 1.98a also works:
+
+```
+lolMiner --algo ETHASH --pool pool.testnet.eserchain.org:8008 --user 0xYOUR_ADDRESS.RIG --ethstratum ETHPROXY
+```
+
+GMiner 3.44 and T-Rex 0.26.8 do not run on RTX 50 series cards. Results for other cards and miners: see
+[NODE.md](NODE.md); please report yours.
+
 ## Run a node
 
 ```
