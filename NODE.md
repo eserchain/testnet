@@ -78,6 +78,9 @@ geth --datadir ~/eser-node --networkid 20261113 --syncmode full \
 
 - `--networkid 20261113` is required; without it the node looks for Ethereum mainnet peers.
 - `--syncmode full` is the mode that was tested. Snap sync is **not verified**.
+- Optional, recommended: `--mess.activate 3700` turns on MESS (ECBP-1100, protection against deep reorganisations)
+  from block 3700, as on the project's own testnet nodes since 13 November 2026 and on mainnet from block 0. It only
+  changes which chain your node prefers in a deep reorganisation; it does not change block validity.
 - Keep `--http.addr 127.0.0.1`. An RPC port open to the internet lets anyone read your node and, if an account is
   unlocked, spend from it. Do not use `--http.addr 0.0.0.0`, `--allow-insecure-unlock` or the `personal`, `admin`,
   `debug` or `miner` APIs on a reachable address. To use the RPC from another machine, use an SSH tunnel:
