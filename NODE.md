@@ -127,7 +127,7 @@ Pool page with your balance and payments: https://pool.testnet.eserchain.org
 |---|---|
 | ethminer 0.19.0-18 (commit `8eaf50ab`, built from source; Linux x86-64 build on https://eserchain.org/dl/), OpenCL (`-G`) | Works. RTX 5060 Ti: 53.3 MH/s |
 | ethminer 0.18.0 (official release), OpenCL | Works on 16 GB cards. Fails on a 4 GB NVIDIA card (`CL_INVALID_BUFFER_SIZE`): it allocates the DAG as one buffer |
-| ethminer 0.19.0-18 (commit `8eaf50ab`), Windows build made for this project (https://eserchain.org/dl/), OpenCL (`-G`) | Works on a 4 GB card: RTX 3050 Ti Laptop GPU, split DAG, 22.7 MH/s steady, 19 of 19 shares accepted by the testnet pool |
+| ethminer 0.19.0-18 (commit `8eaf50ab`), Windows build made for this project (https://eserchain.org/dl/), OpenCL (`-G`) | Works on a 4 GB card: RTX 3050 Ti Laptop GPU, split DAG, about 22 MH/s, 1189 shares accepted and none rejected in a long run on the testnet pool |
 | ethminer 0.18.0 / 0.19.0-alpha, CUDA (`-U`) | Does not work on RTX 30 series and newer (`invalid device symbol`) |
 | lolMiner 1.98a (closed source, 0.7 % dev fee), CUDA on NVIDIA | Works. RTX 5060 Ti: 52.45 MH/s, 136 of 136 shares accepted. `lolMiner --algo ETHASH --pool pool.testnet.eserchain.org:8008 --user 0xYOUR_ADDRESS.RIG --ethstratum ETHPROXY` |
 | GMiner 3.44 (closed source, 2 % dev fee) | Does not run on RTX 50 series (`no kernel image is available for execution on the device`). Older cards **not verified** |
