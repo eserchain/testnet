@@ -119,7 +119,7 @@ wallet'ları sadece işletme için gereken miktarı tutan hot wallet'lardır.
 | Bileşen | Yazılım | Notlar |
 |---|---|---|
 | Node | Core-Geth v1.13.0, resmi sürüm, değiştirilmemiş | Linux x86-64 ve arm64 test edildi |
-| Bootnode'lar | Proje tarafından çalıştırılan üç bootnode, iki ayrı ağda | Bağımsız bootnode'lar memnuniyetle karşılanır |
+| Bootnode'lar | Proje tarafından çalıştırılan dört bootnode, üç ayrı ağda (bir veri merkezi ve iki internet hattı) | Bağımsız bootnode'lar memnuniyetle karşılanır |
 | Mining pool | Proje düzeltmeleriyle open-etc-pool-friends | PPLNS, 1 % fee, 0,2 ESER'den itibaren otomatik payout |
 | Explorer | Blockscout | Contract kaynak kodu doğrulama |
 | Faucet | Proje servisi | Sadece testnet |

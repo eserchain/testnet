@@ -17,7 +17,7 @@ testnet may be restarted with a new genesis. Mainnet (chain ID 19811113) is not 
 | EVM | Shanghai-level opcodes (`PUSH0`), no EIP-1559: no `BASEFEE`; legacy (type 0) transactions tested, access-list (type 1) accepted by the node (not yet seen mined in a block); EIP-1559 (type 2) is rejected |
 | Not supported | Cancun opcodes (`MCOPY`, `TLOAD`/`TSTORE`, `BLOBHASH`) |
 | Genesis hash (testnet) | `0xba3b827401083284306d2cb4a5f87dd42456387bf6dec7f6e60d0dd771ecc4c6` |
-| Bootnodes (testnet) | `enode://bc2b63cb93c0e47eea82776164874b8f83f476043f5d28b61443e2de097697d17cc42111223a300b8af010076740f6b5dfac73606d17fb5a619eee97d982cac1@89.167.127.16:30303`<br>`enode://f3d661e5cd3bacda2cf39b53a4f45ed3f317264fe4c8cd4406554a2b570ee6377702d6f054652c0bf575616b97b3537f9f95e4374bffff51df6737d1a63dd863@2.29.148.35:30303`<br>`enode://ddddf11f5d680ba1849617bee2ded7745759772692bad2901eda56589dd15637e17c941e4dcf7d67f2fc934d84fa39a3194b58da118265d40c7b830b4eb8703c@85.105.194.210:30310` |
+| Bootnodes (testnet) | `enode://bc2b63cb93c0e47eea82776164874b8f83f476043f5d28b61443e2de097697d17cc42111223a300b8af010076740f6b5dfac73606d17fb5a619eee97d982cac1@89.167.127.16:30303`<br>`enode://f3d661e5cd3bacda2cf39b53a4f45ed3f317264fe4c8cd4406554a2b570ee6377702d6f054652c0bf575616b97b3537f9f95e4374bffff51df6737d1a63dd863@2.29.148.35:30303`<br>`enode://ddddf11f5d680ba1849617bee2ded7745759772692bad2901eda56589dd15637e17c941e4dcf7d67f2fc934d84fa39a3194b58da118265d40c7b830b4eb8703c@85.105.194.210:30310`<br>`enode://a9aa2d77f5800cbb73034bf021ed0d93402360098343f676b93dcd5a8e8dd20456bcf79416cca894b43da0e606637be630f4aad2a70b874d6c2a07e274af62d1@37.130.64.31:30303` |
 | Explorer | https://explorer.testnet.eserchain.org |
 | Pool | `pool.testnet.eserchain.org:8008` (PPLNS, 1 % fee, automatic payouts from 0.2 ESER), page: https://pool.testnet.eserchain.org |
 | Public RPC | `https://testnet.eserchain.org/rpc` (rate-limited; for heavy use run your own node) |
@@ -72,7 +72,7 @@ different chain.
 
 ```bash
 geth --datadir ~/eser-node --networkid 20261113 --syncmode full \
-  --port 30303 --bootnodes "enode://bc2b63cb93c0e47eea82776164874b8f83f476043f5d28b61443e2de097697d17cc42111223a300b8af010076740f6b5dfac73606d17fb5a619eee97d982cac1@89.167.127.16:30303,enode://f3d661e5cd3bacda2cf39b53a4f45ed3f317264fe4c8cd4406554a2b570ee6377702d6f054652c0bf575616b97b3537f9f95e4374bffff51df6737d1a63dd863@2.29.148.35:30303,enode://ddddf11f5d680ba1849617bee2ded7745759772692bad2901eda56589dd15637e17c941e4dcf7d67f2fc934d84fa39a3194b58da118265d40c7b830b4eb8703c@85.105.194.210:30310" \
+  --port 30303 --bootnodes "enode://bc2b63cb93c0e47eea82776164874b8f83f476043f5d28b61443e2de097697d17cc42111223a300b8af010076740f6b5dfac73606d17fb5a619eee97d982cac1@89.167.127.16:30303,enode://f3d661e5cd3bacda2cf39b53a4f45ed3f317264fe4c8cd4406554a2b570ee6377702d6f054652c0bf575616b97b3537f9f95e4374bffff51df6737d1a63dd863@2.29.148.35:30303,enode://ddddf11f5d680ba1849617bee2ded7745759772692bad2901eda56589dd15637e17c941e4dcf7d67f2fc934d84fa39a3194b58da118265d40c7b830b4eb8703c@85.105.194.210:30310,enode://a9aa2d77f5800cbb73034bf021ed0d93402360098343f676b93dcd5a8e8dd20456bcf79416cca894b43da0e606637be630f4aad2a70b874d6c2a07e274af62d1@37.130.64.31:30303" \
   --http --http.addr 127.0.0.1 --http.port 8545 --http.api eth,net,web3
 ```
 

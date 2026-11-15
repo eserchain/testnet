@@ -114,7 +114,7 @@ are hot wallets holding only operating amounts.
 | Component | Software | Notes |
 |---|---|---|
 | Node | Core-Geth v1.13.0, official release, unmodified | Linux x86-64 and arm64 tested |
-| Bootnodes | Three, run by the project, in two networks | More independent bootnodes are welcome |
+| Bootnodes | Four, run by the project, in three networks (a data centre and two internet lines) | More independent bootnodes are welcome |
 | Mining pool | open-etc-pool-friends with project fixes | PPLNS, 1 % fee, automatic payouts from 0.2 ESER |
 | Explorer | Blockscout | Contract source verification |
 | Faucet | Project service | Testnet only |
